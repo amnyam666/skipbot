@@ -1,0 +1,9 @@
+services:
+  skipbot:
+    build: .
+    container_name: skipbot
+    restart: unless-stopped
+    volumes:
+      - ./attendance.db:/app/attendance.db
+    env_file:
+      - .env
