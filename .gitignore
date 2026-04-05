@@ -1,4 +1,5 @@
 .env
 attendance.db
+data/
 __pycache__/
 *.pyc

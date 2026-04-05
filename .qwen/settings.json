@@ -5,7 +5,9 @@
       "Bash(pip install *)",
       "Bash(del *)",
       "Bash(docker *)",
-      "Bash(type *)"
+      "Bash(type *)",
+      "Bash(mkdir *)",
+      "Bash(echo.)"
     ]
   },
   "$version": 3
