@@ -4,14 +4,9 @@ services:
     container_name: skipbot
     restart: unless-stopped
     volumes:
-      - db_data:/app
+      - db_data:/app/data
     env_file:
       - .env
 
 volumes:
   db_data:
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: ./data
